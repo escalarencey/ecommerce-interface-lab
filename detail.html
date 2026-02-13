@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Pet Palace</title>
+</head>
+<body>
+    <header>
+        <h1>Pet Palace</h1>
+        <nav>
+            <a href="landing.html">Home</a> | 
+            <a href="products.html">Back to Catalog</a> | 
+            <a href="cart.html">View Cart</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <img src="harness.jpg" alt="Blue Dog Harness" width="350" height="350">
+            <h2>Blue Dog Harness</h2>
+            <p><strong>Price: ₱280.00</strong></p>
+        </section>
+
+        <section>
+            <h3>Technical Specifications</h3>
+            <table border="1" cellpadding="10" width="100%">
+                <thead>
+                    <tr>
+                        <th>Specification</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Category</td>
+                        <td>Dogs</td>
+                    </tr>
+                    <tr>
+                        <td>Material</td>
+                        <td>High-Grade Nylon</td>
+                    </tr>
+                    <tr>
+                        <td>Size</td>
+                        <td>Medium / Adjustable</td>
+                    </tr>
+                    <tr>
+                        <td>Color</td>
+                        <td>Royal Blue</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <br>
+
+        <section>
+            <form action="cart.html" method="GET">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" value="1" required>
+                <br><br>
+                <button type="submit">Add to Cart</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Customer Reviews</h2>
+            
+            <article>
+                <h4>Reviewer: Juan Dela Cruz</h4>
+                <blockquote>
+                    "Napakatibay ng harness na ito. Safe na safe ang aso ko tuwing naglalakad kami sa labas!"
+                </blockquote>
+            </article>
+
+            <br>
+
+            <article>
+                <h3>Customer Ratings</h3>
+                <form action="#">
+                    <div>
+                        <label for="Ratings">Ratings (0 to 5):</label><br>
+                        <input type="range" id="Ratings" name="Ratings" min="0" max="5" value="5">
+                    </div>
+                    
+                    <br>
+                    
+                    <div>
+                        <input type="text" placeholder="Insert review" required>
+                        <button type="submit">Submit Review</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <br>
+    <hr>
+    <footer>
+        <p>&copy; 2026 Pet Palace Philippines</p>
+    </footer>
+</body>
+</html>
