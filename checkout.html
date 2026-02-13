@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout & Shipping - Pet Palace</title>
+</head>
+<body>
+
+    <header>
+        <h1>Pet Palace Checkout</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Order Progress: Step 1 of 1</h2>
+            
+            <form action="order-confirmation.html" method="POST">
+                
+                <fieldset>
+                    <legend><label>Shipping Address</label></legend>
+                    
+                    <p>
+                        <label for="name">Full Name:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+                    
+                    <p>
+                        <label for="street">Street:</label><br>
+                        <input type="text" id="street" name="street" required>
+                    </p>
+                    
+                    <p>
+                        <label for="zip">Zip Code:</label><br>
+                        <input type="text" id="zip" name="zip" required>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Payment Details</legend>
+                    <p>Please select your payment method:</p>
+                    
+                    <input type="radio" id="credit-card" name="payment" value="Credit Card" checked>
+                    <label for="credit-card">Credit Card</label><br>
+                    
+                    <input type="radio" id="paypal" name="payment" value="PayPal">
+                    <label for="paypal">PayPal</label>
+                </fieldset>
+
+                <br>
+
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+
+        <aside>
+            <h3>Order Summary</h3>
+            <p>Product Total: ₱500.00</p>
+            <p>Shipping Fee: ₱50.00</p>
+    
+            <hr>
+            <p><strong>Final Total: ₱550.00</strong></p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pet Palace Philippines</p>
+    </footer>
+
+</body>
+</html>
