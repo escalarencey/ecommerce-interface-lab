@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop All Products - Pet Palace</title>
+</head>
+<body>
+    <header>
+        <h1>Pet Palace Catalog</h1>
+        <nav>
+            <a href="landing.html">Home</a> | 
+            <a href="cart.html">Shopping Cart</a> | 
+            <a href="account.html">My Account</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main style="display: flex;">
+        <aside style="flex: 1; padding: 20px;">
+            <h2>Filters</h2>
+            <form>
+                <fieldset>
+                    <legend>Pet Type</legend>
+                    <label><input type="checkbox" name="pet" value="dog"> Dogs</label><br>
+                    <label><input type="checkbox" name="pet" value="cat"> Cats</label><br>
+                    <label><input type="checkbox" name="pet" value="bird"> Birds</label><br>
+                    <label><input type="checkbox" name="pet" value="fish"> Fish</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Price Range</legend>
+                    <label><input type="radio" name="price" value="low"> Under ₱100</label><br>
+                    <label><input type="radio" name="price" value="mid"> ₱100 - ₱500</label><br>
+                    <label><input type="radio" name="price" value="high"> ₱500+</label>
+                </fieldset>
+            </form>
+        </aside>
+
+        <section class="products" style="flex: 3; padding: 20px;">
+            <h2>Available Supplies</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px;">
+
+                <article>
+                    <img src="harness.jpg" alt="Blue Dog Harness" width="250" height="250">
+                    <h3>Blue Dog Harness</h3>
+                    <p>₱280.00</p>
+                    <a href="detail.html">View Details</a>
+                </article>
+                
+                <article>
+                    <img src="amber.jpg" alt="Amber Dog Harness" width="250" height="250">
+                    <h3>Amber Dog Harness</h3>
+                    <p>₱350.00</p>
+                    <a href="detail.html">View Details</a>        
+                </article>
+
+                <article>
+                    <img src="pedigree.jpg" alt="Adult Dog Food" width="250" height="250">
+                    <h3>Pedigree Adult Beef Chunks</h3>
+                    <p>₱130.00</p>
+                    <a href="detail.html">View Details</a>        
+                </article>
+
+                <article>
+                    <img src="laser.jpg" alt="Cat laser" width="250" height="250">
+                    <h3>Cat Laser Toy</h3>
+                    <p>₱40.00</p>
+                    <a href="detail.html">View Details</a>  
+                </article>
+
+                <article>
+                    <img src="kitkat.jpg" alt="Catfood" width="250" height="250">
+                    <h3>KitKat Premium Cat Food</h3>
+                    <p>₱220.00</p>
+                    <a href="detail.html">View Details</a>  
+                </article>
+
+                <article>
+                    <img src="tower.jpg" alt="Cat Tower" width="250" height="250">
+                    <h3>Pink Multi-Level Cat Tower</h3>
+                    <p>₱1,250.00</p>
+                    <a href="detail.html">View Details</a>
+                </article>
+
+                <article>
+                    <img src="perch.jpg" alt="Bird Perch" width="250" height="250">
+                    <h3>Natural Wood Bird Perch</h3>
+                    <p>₱227.00</p>
+                    <a href="detail.html">View Details</a>
+                </article>
+                
+                <article>
+                    <img src="elixir.jpg" alt="Elixir Bird Feeds" width="250" height="250">
+                    <h3>Elixir Bird Feeds</h3>
+                    <p>₱35.00</p>
+                    <a href="detail.html">View Details</a>
+                </article>
+                
+                <article>
+                    <img src="premium.jpg" alt="Premium Bird Feeds" width="250" height="250">
+                    <h3>Premium Bird Mix</h3>
+                    <p>₱37.00</p>
+                    <a href="detail.html">View Details</a>
+                </article>
+                
+                <article>
+                    <img src="gardman.jpg" alt="Gardman Bird Feeds" width="250" height="250">
+                    <h3>Gardman Bird Feeds</h3>
+                    <p>₱45.00</p>
+                    <a href="detail.html">View Details</a>
+                </article>
+
+                <article>
+                    <img src="pellets.jpg" alt="Fish Pellets" width="250" height="250">
+                    <h3>Fish Pellets</h3>
+                    <p>₱69.00</p>
+                    <a href="detail.html">View Details</a>
+                </article>
+
+                <article>
+                    <img src="flakes.jpg" alt="Fish Flakes" width="250" height="250">
+                    <h3>Fish Flakes</h3>
+                    <p>₱59.00</p>
+                    <a href="detail.html">View Details</a>
+                </article>
+
+                <article>
+                    <img src="filter.jpg" alt="Fish Tank Filter" width="250" height="250">
+                    <h3>Quiet-Flow Power Filter</h3>
+                    <p>₱268.00</p>
+                    <a href="detail.html">View Details</a>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <hr>
+    
+    <footer style="text-align: center; padding: 20px;">
+        <p>&copy; 2026 Pet Palace Philippines. All rights reserved.</p>
+    </footer>
+</body>
+  </html>
+  
